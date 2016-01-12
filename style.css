@@ -1,0 +1,611 @@
+/*
+Theme Name: Care Consultants for the Aging
+Description: Child theme for the Avada
+Author: Karaza
+Theme URI: http://www.karaza.com
+Template: Avada
+*/
+
+/* Main Background Gradient */
+html, body {
+	background-color: #FFFFFF;
+	background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF),color-stop(100%, #0084A9));
+	background: -webkit-linear-gradient(top,#FFFFFF ,#0084A9 100%);
+	background: linear-gradient(to bottom,#FFFFFF ,#0084A9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFFFF, endColorstr=#FF0084A9, GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FF0084A9', GradientType=0)";
+}
+
+/* Main Wrap Top and Bottom Margin */
+body #wrapper {
+	margin-top:35px;
+	margin-bottom:30px;
+}
+
+/* Main Content Left and Right Padding */
+body.page-id-3010 #main {
+	padding-left: 5px !important;
+}
+
+.fusion-header-wrapper .fusion-row {
+	margin-right: 15px !important;
+	padding-left: 0px;
+	padding-right: 0px;
+	max-width: 900px;
+}
+
+/* Header Wrap Top and Bottom Padding */
+.fusion-header-v4 .fusion-header {
+	padding: 7px 0px 2px 0px;
+}
+
+/* Header Logo Padding Fix */
+.fusion-logo a:hover {
+  padding-top:0px;
+}
+
+/* Main Contact Us Button */
+.contact-btn-wrap {
+  width:597px;
+  height:40px;
+  border: solid #FFF 4px;
+  background-color:#015377;
+}
+
+.contact-btn-wrap:hover {
+  width:597px;
+  height:40px;
+  border: solid #FFF 4px;
+  background-color:#d1e2bb;
+}
+
+.contact-btn {
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 18px;
+  font-family: Geneva,Verdana,Lucida Sans,Lucida Sans Unicode,sans-serif;
+  color: #FFF;
+  padding-top:3px;
+}
+
+.contact-btn a {
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: Geneva,Verdana,Lucida Sans,Lucida Sans Unicode,sans-serif;
+  color: #FFF;
+  padding-top:3px;
+}
+
+.contact-btn a:hover {
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: Geneva,Verdana,Lucida Sans,Lucida Sans Unicode,sans-serif;
+  color: #000000 !important;
+  background-color: #d1e2bb;
+  padding-top:3px;
+}
+
+.contact-btn a:hover {
+  padding-top:3px;
+}
+/* End Main Contact Us Button */
+
+/* Start Header Slide and Menu */
+.ubermenu-admin-notice {
+  display:none;
+}
+
+.phonenumbers {
+  position: absolute;
+  width:200px;
+  top:230px;
+  left:80px;
+  text-align: right;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0084A9;
+  font-family: Trebuchet,Trebuchet MS,Tahoma,Arial,sans-serif;
+}
+
+.slide-menu-container {
+  width:100%;
+  height:223px;
+  margin-top:35px;
+}
+
+#headslide {
+  float:left;
+  width: 306px;
+  border-top: solid #FFF 4px;
+  border-bottom: solid #FFF 4px;
+  border-left: solid #FFF 4px;
+  border-right: solid #FFF 2px;
+}
+
+#headmenu {
+  float:left;
+  width: 288px;
+  padding:0px;
+  background-color: #FFF;
+}
+
+.ubermenu .ubermenu-item.ubermenu-item-3118 > .ubermenu-target {
+  width:142px;
+  height:111px;
+  border-top: solid #FFF 4px;
+  border-right: solid #FFF 2px;
+  border-bottom: solid #FFF 2px;
+  border-left: solid #FFF 2px;
+  margin:0 0 0 2px;
+  font-family: Geneva,Verdana,Lucida Sans,Lucida Sans Unicode,sans-serif;
+  letter-spacing: 2px;
+}
+
+.ubermenu .ubermenu-item.ubermenu-item-1826 > .ubermenu-target {
+  width:142px;
+  height:111px;
+  border-top: solid #FFF 4px;
+  border-right: solid #FFF 2px;
+  border-bottom: solid #FFF 2px;
+  border-left: solid #FFF 2px;
+  margin:0px !important;
+  font-family: Geneva,Verdana,Lucida Sans,Lucida Sans Unicode,sans-serif;
+  letter-spacing: 2px;
+}
+
+.ubermenu .ubermenu-item.ubermenu-item-1824 > .ubermenu-target {
+  width:143px;
+  height:112px;
+  border-top: solid #FFF 2px;
+  border-right: solid #FFF 2px;
+  border-bottom: solid #FFF 4px;
+  border-left: solid #FFF 2px;
+  margin:0px;
+  font-family: Geneva,Verdana,Lucida Sans,Lucida Sans Unicode,sans-serif;
+  letter-spacing: 2px;
+}
+
+.ubermenu .ubermenu-item.ubermenu-item-2913 > .ubermenu-target {
+  width:142px;
+  height:112px;
+  border-top: solid #FFF 2px;
+  border-right: solid #FFF 2px;
+  border-bottom: solid #FFF 4px;
+  border-left: solid #FFF 2px;
+  margin:0px;
+  font-family: Geneva,Verdana,Lucida Sans,Lucida Sans Unicode,sans-serif;
+  letter-spacing: 2px;
+}
+
+.ubermenu .ubermenu-target-text {
+  text-align:center;
+}
+/* End Header Slide and Menu */
+
+img#award-img {
+  margin-bottom:-25px;
+}
+
+/* Homepage Content Columns */
+.fusion-spacing-no.fusion-one-fourth {
+  width: 28.5%;
+}
+
+.fusion-spacing-no.fusion-three-fourth {
+  width: 71.5%;
+}
+/* End Homepage Content Columns */
+
+/* Box 1 Content */
+#box1 {
+  background-color: #015377;
+  padding: 20px;
+  margin: 4px;
+  margin-top: 10px;
+}
+
+.white-heading {
+	color: #FFFFFF;
+	font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
+	font-size: 24px;
+  line-height: 28px;
+	font-weight: bold;
+  text-align:center;
+}
+
+/* Box 2 Content */
+#box2 {
+  background-color: #ADCFD8;
+  margin: 4px;
+  padding-top: 15px;
+  padding-bottom: 6px;
+}
+
+#u339-2 {
+  letter-spacing: -2px;
+}
+
+#box2-content {
+    font-size: 22px;
+    line-height: 30px;
+    color: #000;
+    font-family: Times,Times New Roman,Georgia,serif;
+    font-weight: normal;
+    padding: 15px;
+}
+/* End Box 2 Content */
+
+
+/* Box 3 Content */
+#box3 {
+  background-color: #D1E2BB;
+  margin: 4px;
+  margin-top: 10px;
+  padding: 15px;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  width: 661px;
+}
+
+#box3-content {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.black-heading {
+  font-family: Geneva,Verdana,Lucida Sans,Lucida Sans Unicode,sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0;
+  line-height: 29px;
+  color: #000;
+}
+
+ul.list-content {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: semi-bold;
+}
+
+ul.list-content li {
+  padding-bottom: 10px;
+}
+
+#u334-2, #u334-4 {
+  font-weight: bold;
+}
+/* End Box 3 Content */
+
+/* Box 4 Content */
+#box4 {
+  float:left;
+  width: 275px;
+  height: 226px;
+  background-color: #9AAF7F;
+  margin:0 0px 0 4px;
+}
+.book-heading {
+  font-family: Geneva,Verdana,Lucida Sans,Lucida Sans Unicode,sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 25px;
+  color: #FFF;
+  text-align:left;
+  padding: 10px 0 0 10px;
+}
+
+#book {
+  position:absolute;
+  bottom:-2px;
+  left:67px;
+}
+/* End Box 4 Content */
+
+/* Box 5 Content */
+#box5 {
+  float: left;
+  width: 382px;
+  height: 226px;
+  background: #ADCFD8;
+  margin: 0 -30px 0 4px;
+  padding: 10px;
+}
+
+#box5-heading {
+  font-size: 21px;
+  text-transform: uppercase;
+  line-height: 27px;
+  font-weight: normal;
+  margin:31px 0 0 35px;
+}
+
+#box5-text-wrap {
+  width:250px;
+  margin:7px 0 0 65px;
+}
+
+#box5-text {
+  line-height: 26px;
+  text-indent: 25px;
+}
+
+#box5-sig {
+  font-style: italic;
+  text-align: right;
+  margin-top:-15px;
+}
+/* End Box 5 Content */
+
+/* Footer Area */
+.fusion-footer-widget-area {
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.bbb {
+  float: left;
+  margin:30px 30px 0 0;
+}
+
+#u380-2, #u381-2 {
+  color: #015377;
+  font-weight: bold;
+  margin-bottom:0px;
+}
+
+#footer-box1 {
+  float: left;
+  width: 139px;
+  background-color: #D1E2BB;
+  position: relative;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  padding:0 0 15px 10px;
+}
+
+#footer-box2 {
+  float: left;
+  width: 139px;
+  background-color: #ADCFD8;
+  position: relative;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  margin-left: 5px;
+  padding:0 0 15px 10px;
+}
+
+p {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  background-color: transparent;
+  font-size: 14px;
+  letter-spacing: 0px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a.clink:link {
+  text-decoration: underline;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  background-color: transparent;
+  font-size: 18px;
+  letter-spacing: 0px;
+  font-weight: normal;
+}
+
+a.clink:hover {
+  text-decoration: underline;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  background-color: transparent;
+  font-size: 18px;
+  letter-spacing: 0px;
+  font-weight: normal;
+}
+
+/* HomeCare Page Styling */
+#our-homecare-box-content {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  color: #000;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-weight: normal;
+  margin-top:-7px;
+}
+
+#homecare-box-text {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+#homecare-box1 {
+  background-color: #015377;
+  padding: 15px;
+  margin: 4px;
+}
+
+#homecare-box2 {
+  background-color: #ADCFD8;
+  padding: 17px;
+  margin: 4px;
+  padding-bottom: 4px;
+}
+
+#homecare-box3 {
+  background-color: #D1E2BB;
+  padding: 15px;
+  margin: 4px;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  line-height: 4px;
+}
+
+#homecare-box4 {
+  background-color: #9AAF7F;
+  padding: 15px;
+  padding-bottom: 20px;
+  margin: 4px;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  line-height: 23px;
+}
+/* End HomeCare Page Styling */
+
+
+/* How We Began Page Styling */
+#how-we-began-box1 {
+  background-color: #015377;
+  padding: 15px;
+  margin: 4px;
+}
+
+#how-we-began-box2 {
+  background-color: #adcfd8;
+  padding: 15px;
+  padding-top: 40px;
+  padding-bottom: 35px;
+  margin: 4px;
+}
+
+#how-we-began-box2-content {
+  font-size: 21px;
+  line-height: 30px;
+  color: #000;
+  font-family: Times,Times New Roman,Georgia,serif;
+  font-weight: normal;
+  padding: 15px;
+}
+
+#how-we-began-box3 {
+  background-color: #d1e2bb;
+  padding: 15px;
+  margin: 4px;
+}
+/* End How We Began Page Styling */
+
+/* Resource Handbook Styling */
+
+#resource-handbook-box1 {
+  background-color: #015377;
+  padding: 15px;
+  margin: 4px
+}
+
+#resource-handbook-box2 {
+  background-color: #adcfd8;
+  padding: 15px;
+  margin: 4px;
+  padding-top: 29px;
+  padding-bottom: 30px;
+}
+
+#resource-handbook-box3 {
+  background-color: #d1e2bb;
+  padding: 15px;
+  margin: 4px;
+}
+
+#resource-handbook-box4 {
+  background-color: #9aaf7f;
+  padding: 15px;
+  margin: 4px;
+}
+
+#accept_paypal_payment_form {
+  text-align: center;
+}
+/* End Resource Handbook Styling */
+
+#home-care-list {
+  font-size: 18px;
+}
+
+#home-care-list li {
+  font-size: 18px;
+}
+span.gform_description {
+  font-size: 16px;
+  text-align: center;
+}
+
+div.gfield_description {
+  font-size: 16px;
+}
+h1 {
+  background-color: #adcfd8;
+  padding: 50px;
+}
+
+h2 {
+  background-color: #d1e2bb;
+}
+
+h3.gform_title {
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.fusion-content-boxes {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+p.wp-caption-text {
+  color: white;
+}
+
+#main {
+  padding-bottom: 0px !important;
+}
+
+.idPageLeft {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+p#homecare-box2-content {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+p#resource-handbook-box2-content {
+  font-size: 23px;
+  line-height: 34px;
+  color: #000;
+  font-family: Times,Times New Roman,Georgia,serif;
+  font-weight: normal;
+  padding: 15px;
+}
+
+p#resource-handbook-box3-content {
+  font-size: 18px;
+}
+
+p#resource-handbook-box4-content {
+  font-size: 13px;
+}
+
+#integrity-award {
+  padding-top: 10px;
+}
+
+.green-links {
+  background-color: #d1e2bb;
+  padding: 5px 15px 20px 15px;
+  margin: 10px 0px 10px 0px;
+}
+
+.blue-links {
+  background-color: #adcfd8;
+  padding: 5px 15px 20px 15px;
+  margin: 2.5px;
+}
